@@ -3,7 +3,7 @@
 <div class="container">
     <div class="page-inner">
 
-    <h2>Create EMI Rule</h2>
+    <h2>Create EMI Rule(Updated)</h2>
     <form action="{{ route('emis.store') }}" method="POST">
         @csrf
         <div class="row">
