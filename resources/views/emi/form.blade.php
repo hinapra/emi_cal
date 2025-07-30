@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="container mt-5">
-    <h2>EMI Calculator(Update)</h2>
+    <h1 style="color: green">EMI Calculator(Update)</h1>
 
     @if($errors->any())
         <div class="alert alert-danger">{{ $errors->first() }}</div>
